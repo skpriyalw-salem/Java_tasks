@@ -1,0 +1,17 @@
+Write a program to:
+Take two integers a and b
+Print:
+Sum
+Difference
+Product
+Division
+Modulus
+Swapping using bitwise operators without using 3 rd variable
+To find last 2 digit of the given number
+To find middle digit of the number
+Write a program to take a five-digit number as input, square the middle digit and print number and the square.
+Input Data:
+Input an integer: 54623
+Expected Output
+Square of 6 is: 36
+To find last digit of the number
