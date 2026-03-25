@@ -1,0 +1,21 @@
+Write a program to divide two numbers and handle ArithmeticException.
+Access an array element beyond its size and handle ArrayIndexOutOfBoundsException
+Create a String variable = null and try to call .length()
+Handle NullPointerException
+Write a program that handles:
+ArithmeticException
+ArrayIndexOutOfBoundsException. 
+Manually throw an exception if age < 18 eligible to license. 
+
+Create your own exception class: InvalidAgeException
+Throw it if age < 18
+Catch and display message
+Check output:
+try {
+   return 10;
+} finally {
+   return 20;
+}
+Create 3 methods:
+method1 → method2 → method3 Throw exception in method3
+Handle in main
