@@ -1,0 +1,27 @@
+1.college wants to store student details in a file.
+Task:
+Input: id, name, marks
+Save in file
+Read and display all students
+ Extra:
+Append new students without deleting old data
+
+2.ser login system using file
+Task:
+Store username & password in file
+Take input from user
+Check if login is valid
+Challenge:
+Show "Invalid user" if not foun
+
+3.Daily attendance stored in file
+ Task:
+Mark attendance (Present/Absent)
+Save date + student name
+Read attendance for a specific date
+
+4.Bank wants to store transactions
+Task:
+Deposit / Withdraw
+Save each transaction in file
+Show transaction history
