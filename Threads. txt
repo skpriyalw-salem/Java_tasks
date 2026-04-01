@@ -1,0 +1,28 @@
+
+A customer enters an ATM to withdraw money. At that moment, the system creates multiple threads to handle different jobs at the same time.
+The withdrawal thread (HIGH priority) immediately starts checking the PIN and balance because the customer is waiting. At the same time, another thread handles balance inquiry requests, and a third thread prepares the receipt generation.
+Behind everything, a daemon thread runs silently, monitoring fraud patterns and logging every transaction for security. Even if no customer is actively using the ATM, this background thread keeps running.
+So while the user sees a simple “withdraw cash” action, internally multiple threads are working together to complete the task safely and quickly.
+
+
+When you open YouTube and click a video, one thread immediately starts playing the video (HIGH priority) so you don’t feel delay. At the same time, another thread begins buffering upcoming video data so playback stays smooth.
+While you are watching, a separate thread loads comments and likes in the background, and another thread displays ads based on your interest.
+Meanwhile, a daemon thread keeps updating your watch history and recommendations, even when you are not actively interacting with the app.
+All these threads work together so you feel like the app is fast and seamless.
+
+When you send a message, one thread takes responsibility for sending the message instantly (HIGH priority). Almost at the same time, another thread is ready to receive incoming messages from your contacts.
+A third thread shows the “typing…” indicator while someone is replying, and another thread keeps syncing chats across devices.
+In the background, a daemon thread continuously backs up your chats to the cloud, so even if your phone crashes, your data is safe.
+Even though it looks like simple chatting, many threads are working together silently.
+
+When a user searches and places an order, one thread handles product search (HIGH priority). Another thread processes cart updates and payment gateway transaction.
+A third thread manages order tracking updates, while another handles inventory check in real-time.
+A daemon thread continuously updates offers and recommendations in the background.
+
+When you place an order, one thread handles order placement (HIGH priority). Another thread sends it to the restaurant system for acceptance.
+A third thread processes payment confirmation, while another updates delivery tracking in real time.
+A daemon thread updates menu items and offers in the background.
+
+When a user books a ride, one thread immediately handles ride request processing (HIGH priority). Another thread finds the nearest available driver.
+At the same time, a thread calculates the fare estimation, and another tracks the live location of the vehicle.
+A daemon thread continuously updates traffic data in the background.
