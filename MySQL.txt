@@ -1,0 +1,26 @@
+1.Create a table product with:
+pid, pname, price, stock
+Insert 5 products
+Show products with price greater than 20000
+Reduce stock when a product is purchased
+Change price of a product
+Delete product with low stock
+Remove "stock" column
+
+2.Create table employee with:
+eid, ename, salary, department
+Insert 3–5 employees
+Show employees working in “IT”
+Increase salary of all employees
+Delete employee with lowest salary
+Add column "experience"
+Drop entire table
+
+3.Create table book with:
+id, title, author, price
+Insert 5 books
+Show books with price less than 500
+Update price of a book
+Delete one book
+Add column "publisher"
+Remove all books
